@@ -12,6 +12,7 @@ server.listen(8090, function(){
   console.log("server is running...")
 })
 ```
+##### createServer 함수의 response를 이용하여 response.end를 하지 않으면 localhost:포트 가 뜨지 않는다.
 ##### route.process 함수는 아래와 같이 정의되어 있다.
 ```
 var u = require("url");
